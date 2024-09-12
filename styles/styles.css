@@ -1,12 +1,43 @@
 body {
   width: 100%;
   font-family: "Manrope", sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1, h2, h3,
+p, div, a, button {
+  letter-spacing: -0.03em;
+}
+
+h2, h3,
+p, div, a, button {
+  line-height: 1.36;
+}
+
+h2 {
+  font-size: 18px;
+  color: #121212;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  max-width: 1400px;
+  margin: 0 auto;
+  background-color: #ffffff;
 }
 
 .container {
   max-width: 1180px;
-  margin: 0 auto 150px;
+  margin: 0 auto;
   padding: 0 15px;
+}
+
+.hero {
+  padding-bottom: 150px;
 }
 
 .hero__title {
@@ -15,7 +46,6 @@ body {
 
   font-size: 60px;
   line-height: 1;
-  letter-spacing: -0.03em;
   color: #121212;
 }
 
@@ -37,19 +67,15 @@ body {
   width: 430px;
 
   font-size: 20px;
-  line-height: 1.35;
-  letter-spacing: -0.03em;
   color: #ffffff;
+}
+
+.about {
+  padding-bottom: 150px;
 }
 
 .about__title {
   margin-bottom: 30px;
-  
-  font-size: 18px;
-  line-height: 1.35;
-  letter-spacing: -0.03em;
-  color: #121212;
-  text-transform: uppercase;
 }
 
 .about__text {
@@ -57,8 +83,6 @@ body {
   width: 1051px;
   
   font-size: 45px;
-  line-height: 1.35;
-  letter-spacing: -0.03em;
   color: #121212;
 }
 
@@ -67,9 +91,6 @@ body {
   padding: 20px 40px;
 
   font-size: 20px;
-  line-height: 1.35;
-  text-decoration: none;
-  letter-spacing: -0.03em;
   color: #ffffff;
 
   background-color: #ad1818;
@@ -77,4 +98,79 @@ body {
   border-radius: 5px;
 
   cursor: pointer;
+}
+
+.projects {
+  padding-bottom: 150px;
+}
+
+.projects__title {
+  margin-bottom: 30px;
+}
+
+.projects__list {
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+
+.project-item__image {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.project-item__title {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.project-item__link {
+  font-size: 20px;
+  color: #ad1818;
+}
+
+.projects__button {
+  display: block;
+  padding: 56px 0;
+  width: 100%;
+
+  font-size: 30px;
+  text-align: center;
+  color: #ad1818;
+
+  border: 1px solid #ad1818;
+  border-radius: 5px;
+}
+
+.projects__button:hover {
+  color: #ffffff;
+  background-color: #ad1818;
+}
+
+.services {
+  padding-top: 151px;
+  padding-bottom: 150px;
+  background-color: #121212;
+}
+
+.services__title {
+  margin-bottom: 34px;
+  color: #ffffff;
+}
+
+.services__list {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.service-item__image {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.service-item__description {
+  font-size: 30px;
+  color: #ffffff;
 }
