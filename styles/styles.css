@@ -1,7 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 100%;
   font-family: "Manrope", sans-serif;
-  background-color: #f5f5f5;
+  background-color: #ffffff;
 }
 
 h1, h2, h3,
@@ -22,12 +26,6 @@ h2 {
 
 a {
   text-decoration: none;
-}
-
-section {
-  max-width: 1400px;
-  margin: 0 auto;
-  background-color: #ffffff;
 }
 
 .container {
@@ -56,7 +54,7 @@ section {
   background-image: url("../sources/images/main-image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 50%;
 
 }
 
@@ -117,6 +115,8 @@ section {
 
 .project-item__image {
   display: block;
+  width: 100%;
+  height: 100%;
   margin-bottom: 15px;
 }
 
@@ -167,10 +167,147 @@ section {
 
 .service-item__image {
   display: block;
+  width: 100%;
+  height: 100%;
   margin-bottom: 15px;
 }
 
 .service-item__description {
   font-size: 30px;
   color: #ffffff;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 70px;
+  padding-top: 33px;
+}
+
+.nav__list {
+  display: flex;
+  gap: 60px;
+}
+
+.nav__link {
+  font-size: 18px;
+  color: #121212;
+  text-transform: uppercase;
+}
+
+.nav__link:hover {
+  position: relative;
+  opacity: 0.5;
+}
+
+.nav__link:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background-color: #121212;
+}
+
+.project-example {
+  position: relative;
+  height: 717px;
+  background-image: url("../sources/images/bedroom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.project-example__text {
+  position: absolute;
+  bottom: 60px;
+  width: 443px;
+  font-size: 30px;
+  color: #fff;
+}
+
+.contacts {
+  padding-top: 186px;
+  padding-bottom: 160px;
+}
+
+.contacts__title {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.contacts__title::before {
+  content: "";
+  position: absolute;
+  left: -4px;
+  bottom: 36px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../sources/images/phone-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+.contacts__phone {
+  display: block;
+  margin-bottom: 30px;
+  font-size: 60px;
+  line-height: 1;
+  color: #121212;
+}
+
+.contacts_email {
+  position: relative;
+  display: block;
+  width: max-content;
+  font-size: 60px;
+  line-height: 1;
+  color: #121212;
+  opacity: 0.5;
+}
+
+.contacts_email::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 100%;
+  height: 2px;
+  background-color: #121212;
+}
+
+.footer {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #121212;
+}
+
+.menu-footer__list {
+  display: flex;
+  gap: 53px;
+}
+
+.menu-footer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 87px;
+}
+
+.menu-footer__link {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.menu-footer__link:hover {
+  opacity: 0.5;
+}
+
+.footer__text {
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.5;
 }

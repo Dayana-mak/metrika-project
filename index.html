@@ -14,7 +14,19 @@
   <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
-  <header></header>
+  <header>
+    <div class="container container-header">
+      <img src="sources/images/logo-metrika.svg" alt="Логотип Метрика">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a class="nav__link" href="#about">О наc</a></li> 
+          <li><a class="nav__link" href="#projects">Проекты</a></li>
+          <li><a class="nav__link" href="#services">Услуги</a></li>
+          <li><a class="nav__link" href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
+  </div>
+  </header>
   <main>
     <section class="hero">
       <div class="container">
@@ -24,14 +36,14 @@
         </div>
       </div>
     </section>
-    <section class="about">
+    <section id="about" class="about">
       <div class="container">
         <h2 class="about__title">О нас</h2>
         <p class="about__text">Студия основана в 2011 году. Полностью отдаемся проектированию и реализации интерьеров. К нам обращаются за уютом, индивидуальными решениями и практичностью. Находим конструктивные решения для каждого интерьера, вплоть до каждой детали — нацелены на результат.</p>
         <a class="about__button" href="#">Посмотреть услуги</a>
       </div>
     </section>
-    <section class="projects">
+    <section id="projects" class="projects">
       <div class="container">
         <h2 class="projects__title">Проекты</h2>
         <ul class="projects__list">
@@ -54,7 +66,7 @@
         <a href="#" class="projects__button">Смотреть все проекты</a>
       </div>
     </section>
-    <section class="services">
+    <section id="services" class="services">
       <div class="container">
         <h2 class="services__title">Услуги</h2>
         <ul class="services__list">
@@ -77,7 +89,32 @@
         </ul>
     </div>
     </section>
+    <section class="project-example">
+      <div class="container">
+        <p class="project-example__text">Проект Двухкомнатной квартиры в ЖК Лесной Пейзаж</p>
+      </div>
+    </section>
+    <section id="contacts" class="contacts">
+      <div class="container">
+        <h2 class="contacts__title">Контакты</h2>
+        <a class="contacts__phone" href="tel:+79358954535">+7 935&nbsp;&nbsp;895-45-35</a>
+        <a class="contacts_email" href="mailto:hello@mail.com">hello@mail.com</a>
+      </div>
+    </section>
   </main>
-  <footer></footer>
+  <footer class="footer">
+    <div class="container">
+      <div class="menu-footer">
+        <ul class="menu-footer__list">
+          <li><a class="menu-footer__link" href="#about">О наc</a></li> 
+          <li><a class="menu-footer__link" href="#projects">Проекты</a></li>
+          <li><a class="menu-footer__link" href="#services">Услуги</a></li>
+          <li><a class="menu-footer__link" href="#contacts">Контакты</a></li>
+        </ul>
+      </div>
+      <p class="footer__text">студия дизайна интерьера Метрика — 2023</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
