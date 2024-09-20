@@ -1,0 +1,72 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+div,
+p,
+a,
+button {
+  letter-spacing: -0.03em;
+}
+
+h2,
+h3,
+div,
+p,
+a,
+button {
+  line-height: 1.36;
+}
+
+h2 {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #121212;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+@media screen  and (max-width: 1199px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-left: 13px;
+    padding-right: 12px;
+  }
+
+ 
+}
+
+@media screen and (max-width: 500px) {
+  h2 {
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  .container {
+    padding-left: 13px;
+    padding-right: 12px;
+  }
+}

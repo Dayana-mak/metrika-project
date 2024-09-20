@@ -1,0 +1,29 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  background-color: #121212;
+}
+
+.menu-footer__list {
+  display: flex;
+  gap: 53px;
+  justify-content: center;
+  margin-bottom: 87px;
+}
+
+.menu-footer__link {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.menu-footer__link:hover {
+  opacity: 0.5;
+}
+
+.footer__text {
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 0.5;
+}

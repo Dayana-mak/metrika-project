@@ -1,0 +1,16 @@
+.project-example {
+  position: relative;
+  height: 717px;
+  background-image: url("../sources/images/bedroom.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.project-example__text {
+  position: absolute;
+  bottom: 60px;
+  width: 443px;
+  font-size: 30px;
+  color: #fff;
+}
