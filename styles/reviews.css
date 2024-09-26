@@ -28,7 +28,7 @@
   font-size: 22px;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 961px) {
   .reviews {
     padding: 120px 0;
   }

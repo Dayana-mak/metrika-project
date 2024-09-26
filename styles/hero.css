@@ -4,7 +4,7 @@
 
 .hero__title {
   margin-bottom: 30px;
-  width: 956px;
+  max-width: 956px;
 
   font-size: 60px;
   line-height: 1;
@@ -32,13 +32,13 @@
   color: #ffffff;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 961px) {
   .hero {
     padding-bottom: 120px;
   }
 
   .hero__title {
-    width: 802px;
+    max-width: 802px;
     font-size: 50px;
     line-height: 1.2;
   }
@@ -60,7 +60,6 @@
   }
 
   .hero__title {
-    width: 100%;
     font-size: 30px;
     line-height: 1.05;
   }

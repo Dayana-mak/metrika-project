@@ -27,3 +27,24 @@
   color: #ffffff;
   opacity: 0.5;
 }
+
+@media screen and (max-width:500px) {
+  .footer {
+    padding-top: 30px;
+    padding-bottom: 26px;
+  }
+
+  .menu-footer__list {
+    gap: 30px;
+    margin-bottom: 41px;
+  }
+
+  .menu-footer__link {
+    font-size: 12px;
+  }
+
+  .footer__text {
+    font-size: 13px;
+  }
+  
+}
